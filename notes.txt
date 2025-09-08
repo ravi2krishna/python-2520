@@ -79,3 +79,51 @@
     -> Interpreted (Slow In Performance) - Python
 
     -> Compiled (Fast In Performance) - Java
+
+5th Sep 2025
+============
+
+-> Hardware Spec:
+
+    -> i5 / i3 Processor
+    -> 8 GB RAM 
+    -> 500 GB HDD
+
+-> Softwares:
+
+    -> Setup Python (python.org)
+    
+    -> IDE : Integrated Development Environment (Visual Studio Code)
+        -> For Writing Code
+        
+    -> Version Control System : Helps You Keep Track Of Code 
+
+        -> Project : Repository (Holds Project Code + Tracking History) (Collection Of Commits)
+
+        -> Changes : Commits 
+
+        -> Systems We Use
+
+            -> Git : Client Software installed in developer laptop, to start tracking code
+
+            -> GitHub : Platform Which Enables To Store Source Code (github.com)
+
+        -> Workflow
+
+            -> As a developer, you'll create an account on GitHub (github.com)
+
+            -> On Github We Create Repository (Remote Repository) - Unique URL
+
+            -> Clone (Remote Repository) Using - Unique URL 
+
+                -> Clone(copying) To laptop i.e project is copied inside your laptop 
+
+            -> project is copied inside your laptop - Local Repository
+
+            -> First Clone --> Local Repository == Remote Repository
+
+            -> Write a program to calculate sum of 1000 employees salaries 
+
+            -> created employees_salaries.py file -> Write logics (code)
+
+            -> Commit Change (Saving in Local Repository)

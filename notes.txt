@@ -127,3 +127,39 @@
             -> created employees_salaries.py file -> Write logics (code)
 
             -> Commit Change (Saving in Local Repository)
+
+8th Sep 2025
+============
+
+    -> Installing Python from python.org 
+
+        -> windows - .exe
+        -> macos - .pkg
+
+        -> NOTE : Check both the options, while installing python(adds PATH variable to Env Settings)
+
+        -> Win : Command Prompt(cmd) --> python --version 
+
+        -> Mac : Goto Launchpad --> Search (look for Terminal) --> python3 --version
+
+    -> Installing IDE 
+
+        -> Visual Studio Code (VS Code) : Writing Code
+
+        -> To execute python code moving forward --> Use Terminal from VS Code
+    
+    -> Installing Git 
+
+        -> Download & Install Git 
+
+        -> Create GitHub Account 
+
+        -> Clone Repository
+
+        -> Open GitBash (Detailed Used While Creating GitHub Account)
+
+            -> git config --global user.name github_id
+            
+            -> git config --global user.email github_email
+        
+        -> Start Writing Code & Track Code & Update in GitHub

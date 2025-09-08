@@ -1,0 +1,81 @@
+4th Sep 2025
+============
+
+-> Python : 35-40 Days (Common for DA/DS/AI or FullStack or Cloud & DevOps)
+
+    -> DA/DS/AI : pandas, numpy, matplotlib etc 
+    -> FullStack : Django
+    -> Cloud & DevOps : Scripting (OS,SYS,Cloud Modules etc)
+
+-> Python : Python is a high-level, general-purpose programming language. 
+            Its design philosophy emphasizes code readability 
+            with the use of significant indentation. 
+            Python is dynamically type-checked and garbage-collected.
+
+-> Programming Language (Python) : Communicate with Machines
+
+    -> Why shouldn't i Communicate with Machines using English ?
+
+        -> Machines Use Binary Language (01110100101's) 
+
+            -> Binary Language == Machine Language = Low Level Language
+
+            -> 01110000 01111001 01110100 01101000 01101111 01101110 
+
+                -> python
+
+            -> High Level Language 
+
+        Language (English) : Communicate with humans who wants to exchange ideas / data 
+        in terms of english
+    
+    -> General-purpose programming languages
+
+        -> used to manage workloads in different domains 
+
+            -> python can be used for following 
+                (bcz of Supporting Multiple Programming Paradigms )
+
+                -> Desktop Apps
+                -> Web Apps
+                -> API Dev
+                -> Data Related Domain
+                -> Scripting 
+                -> etc 
+
+    -> Domain Specific programming languages
+
+        -> Structured Query Language is a domain-specific language used to manage data, especially in Database Systems
+
+    -> Programming Paradigms 
+
+        -> Paradigm : structure / way to do things
+
+        -> Imperative : HOW TO DO (Style) - Full stack / DevOps / Cloud
+
+        -> Declarative : WHAT TO DO (Style) Functional - DA / DS / AI
+
+        -> Python supports Multiple Programming Paradigms 
+
+
+    -> Add Two Numbers In Java
+
+    class Main {
+        public static void main(String[] args) {          
+            int first = 10;
+            int second = 20;
+            // add two numbers
+            int sum = first + second;
+            System.out.println(first + " + " + second + " = "  + sum);
+        }
+    }
+
+    -> Add Two Numbers In Python
+        first = 10
+        second = 20
+        sum = first + second
+        print(sum)
+    
+    -> Interpreted (Slow In Performance) - Python
+
+    -> Compiled (Fast In Performance) - Java

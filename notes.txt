@@ -152,7 +152,21 @@
 
         -> Download & Install Git 
 
+            -> https://git-scm.com/downloads
+
+            -> MAC OS 
+
+                -> Install Home Brew - https://brew.sh/
+
+                    -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+                -> Install Git 
+
+                    -> brew install git
+
         -> Create GitHub Account 
+
+            -> https://github.com/
 
         -> Clone Repository
 

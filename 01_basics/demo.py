@@ -14,3 +14,12 @@ print('good morning')
 hello = "hello hi"
 print(hello)
 
+print("hello")
+
+# name is identifier 
+
+# class = "10th Standard" # SyntaxError: invalid syntax --> class is a keyword
+classes = "10th Standard"
+print(classes)
+
+print("class")

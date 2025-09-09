@@ -177,3 +177,63 @@
             -> git config --global user.email github_email
         
         -> Start Writing Code & Track Code & Update in GitHub
+    
+9th Sep 2025
+============
+
+    -> Work With Python Code
+    
+        -> Script Mode (100% We use this from real time) 
+
+            -> Using IDE (VS Code)
+
+        -> CLI Mode (Command Line Interface Mode / Interactive ) (not often used) (Quick Checks)
+
+            -> CLI 
+                -> win : command prompt (cmd)
+                -> mac : terminal 
+
+                    -> win : python 
+                    -> mac : python3 
+
+            -> NOTE : Code written in CLI mode is for temporary purpose
+    
+    -> Any Programming Language has Syntax (Rules & Guidelines)
+
+    -> Comparing a language like English with Python
+
+        -> English has 26 alphabets (abcd....z)
+
+        -> Python has keywords 
+
+    -> Keyword : Predefined words, which holds special meaning to python Interpreter 
+
+        -> List Of Keywords : https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+        -> We have 35 keywords 
+
+            False      await      else       import     pass
+            None       break      except     in         raise
+            True       class      finally    is         return
+            and        continue   for        lambda     try
+            as         def        from       nonlocal   while
+            assert     del        global     not        with
+            async      elif       if         or         yield
+
+        -> Keywords + Syntax = Program / Application
+
+        -> NOTE : Keywords cannot be used as identifiers
+
+        -> English 
+            -> today i take class for 8 AM to 9 AM (invalid)
+            -> today i'll be taking the class from 8 AM to 9 AM (valid)
+
+        -> Python 
+            -> print(hello) (invalid)
+            -> print("hello") (valid)
+
+        
+
+
+
+

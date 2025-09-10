@@ -232,8 +232,63 @@
             -> print(hello) (invalid)
             -> print("hello") (valid)
 
+10th Sep 2025
+=============
+
+    -> Identifiers
+
+        -> Within Python Identifiers are names given to 
+
+            -> variable
+            -> Function
+            -> class
+            -> object 
+            -> method
+            -> etc 
         
+        -> Identifiers have rules 
 
+            -> Can Contain
 
+                -> Letters (a-z,A-Z)
+                -> Digits (0-9)
+                -> Underscore(_)
 
+            -> Must Start With
 
+                -> A letter or Underscore
+            
+            -> NOTE : keywords cannot be identifiers
+
+-> Variables 
+
+    -> Variables are names for Memory (RAM) locations
+
+    -> Variables Allows you to
+
+        -> Assign Data
+        -> Retrieve Data
+        -> Manipulate Data (If Required)
+    
+    -> Syntax:
+
+        variable_name = value 
+        student_name = "Ravi"
+        = is called as assignment operator
+
+    -> NOTE : A function in python is going to do a task
+
+    -> id() : Is used to display the identity of an object 
+
+    -> type() : Is used to display the type of data assigned for a variable
+
+    -> NOTE : In python a variable can change during the execution 
+
+    -> When you want to output string data (combing multiple variables) 
+
+        -> We use Concatenation (Joining Multiple Strings) 
+
+            -> Concatenation operator : + (When used with Strings)
+            -> Addition operator : + (When used with Numeric Data)
+
+            -> + (Polymorphism : Multiple Forms)

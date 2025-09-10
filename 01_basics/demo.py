@@ -23,3 +23,26 @@ classes = "10th Standard"
 print(classes)
 
 print("class")
+
+# Identifiers
+data = "hello good morning"
+print(data)
+# 2day_data = "hello" # invalid as starts with digit
+# print(2day_data)
+_data = "hello"
+print(_data)
+
+# $data = "hello" # SyntaxError: invalid syntax cannot have $ only _ allowed
+# print($data)
+
+# Improper way of using Identifiers
+x = "Ravi"
+y = 30
+z = "Python"
+
+# Proper way of using Identifiers
+student_name = "Ravi"
+student_name = 30
+student_enrolled_course = "python"
+
+

@@ -292,3 +292,89 @@
             -> Addition operator : + (When used with Numeric Data)
 
             -> + (Polymorphism : Multiple Forms)
+
+11th Sep 2025
+=============
+
+    -> Interpolation : Replacing Placeholder with actual Values dynamically
+
+        -> We can achieve this using f-strings in python (Supports only from python3)
+
+        -> Syntax : we use {}, with f as (formatted string literals)  
+
+    -> Manipulate Data
+
+-> Operators 
+
+    -> Special Symbols, that performs operations on Variables and their values
+
+    -> Operators Categorization
+
+        -> Arithmetic Operators
+
+            -> + - * / % 
+
+            -> // - floor division (same as division but rounds off value)
+            -> ** - exponentiation (calculate power)
+        
+        -> Compound Assignment Operators
+
+            -> Combine Arithmetic and Assignment Operators 
+            -> Use for concise code (short hand)
+
+            -> x = 10
+            -> x = x + 5 (long form)
+            -> x += 5 (short hand) x is now 15
+            -> x *= 5 (short hand) x is now 75
+        
+            -> Increment / Decrement : ++ / -- (python doesn't support this)
+
+        -> Comparison Operators 
+
+            -> Compare Values and Result will be a boolean (True/False)
+            -> Used in conditionals 
+
+            -> == (equality check)
+            -> != (not equal)
+            -> > 
+            -> <
+            -> >=
+            -> <=
+        
+        -> Logical Operators
+
+            -> Used to check multiple conditions and Result will be a boolean (True/False)
+
+            -> and : validates if both conditions are true, then result is true
+            -> or : if one of the conditions is true, then result is true
+            -> not : negates if condition is true, then result is False
+
+                X       Y       X and Y    X or Y    not X    not Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T 
+
+        -> Membership Operators
+
+            -> Used to check if a sequence is present 
+
+                -> in : return True, if sequence is present
+
+                -> not in : return True, if sequence is not present
+
+        -> Identity Operators
+
+            -> Used to Compare (memory address)
+
+                -> is : return True, if objects are same
+
+                -> is not : return True, if objects are not same
+
+        -> Bitwise Operators
+
+            -> Used in low level programming (0101010)
+
+            -> &(AND) - sets each bit to 1, if both bits are 1
+            -> | (OR) - sets each bit to 1, if one of the bits is 1
+            -> etc

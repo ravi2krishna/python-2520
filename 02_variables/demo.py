@@ -90,3 +90,43 @@ age = 20
 # print("My name is "+name+ " and my age is "+age) # TypeError: can only concatenate str (not "int") to str
 
 # My name is Ravi and my age is 20
+
+# old style of python
+print("My name is ",name + " and my age is ",age)
+
+# print("My name is ",name + " and my age is ",age + "after 5 years my age is ",age+5)
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# new style of python (f-strings)
+print("My name is {name} and my age is {age} after 5 years my age is {age+5}") # no f-strings
+
+print(f"My name is {name} and my age is {age} after 5 years my age is {age+5}") # f-strings
+
+# working with multiple variables
+x = 10
+y = 20
+z = 30
+print(x)
+print(y)
+print(z)
+
+# above can also be done
+x,y,z = 10,20,30 # always LHS == RHS
+print(x)
+print(y)
+print(z)
+
+# x,y,z = 10,20,30,40 # ValueError: too many values to unpack (expected 3)
+print(x)
+print(y)
+print(z)
+
+a = 10
+b = 20
+c = 10
+d = 10
+
+a = c = d = 10
+print(a)
+print(c)
+print(d)

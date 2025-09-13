@@ -447,3 +447,38 @@
             -> float() : converts into float value
             -> str() : converts into string value 
             -> etc 
+
+13th Sep 2025
+=============
+
+-> Control Structures / Statements
+
+    -> Used to control the flow of execution 
+
+    -> Types Of Control Structures 
+
+        -> Conditional Statements (Decision Making Statements)
+
+        -> Looping Statements (Iteration Statements)
+
+        -> Branching Statements (Jump Statements)
+
+    -> Indentation 
+
+        -> Indentation refers to spaces at the beginning of line 
+
+            -> Either use tab or spaces (don't use both)
+                -> How many spaces(at least 1) --> python recommendation is 4 spaces
+            -> All lines in the same block should have same indentation level
+    
+    -> Conditional Statements (Decision Making Statements)
+
+        -> if statement : runs block of code, if the condition is true  
+        -> if else statement : runs a block of code if the condition is true, 
+                               runs another block of code if the condition is false, 
+    
+    -> NOTE : if have input() : used to take input from keyboard
+
+        -> elif ladder 
+
+        -> match case 

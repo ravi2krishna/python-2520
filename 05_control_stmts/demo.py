@@ -67,11 +67,40 @@ print("Welcome: "+name)
 
 age = input("Enter Your Age: ")
 age = int(age)
-if age >= 18: # # TypeError: '>=' not supported between instances of 'str' and 'int'
+if age >= 18: # # TypeError: '>='x not supported between instances of 'str' and 'int'
     print("You can Vote")
 else:
     print("You cannot Vote")
 
+# above using ternary operator
+# variable = value_if_true if condition else value_if_false
+age = int(input("Enter Your Age: "))
+status = "You can Vote" if age >= 18 else "You cannot Vote"
+print(status)
 
-number = int(input("Enter Your Number: "))
-print(number+2)
+# elif ladder 
+marks = int(input("Enter Your Marks: "))
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+elif marks >= 60:
+    print("C")
+elif marks >= 50:
+    print("D")
+elif marks >= 35:
+    print("E")        
+else:
+    print("Failed")
+    
+# match case
+choice = int(input("Enter Your Choice: 1 - Python, 2 - Java, 3 - C#: "))
+match choice:
+    case 1:
+        print("Python")
+    case 2:
+        print("Java")
+    case 3:
+        print("C#")
+    case _:
+        print("Select Only (1-3)")

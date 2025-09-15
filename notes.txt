@@ -479,6 +479,11 @@
     
     -> NOTE : if have input() : used to take input from keyboard
 
-        -> elif ladder 
+    -> NOTE : ternary operator : almost like if-else with short hand code (concise code)
 
-        -> match case 
+              variable = value_if_true if condition else value_if_false
+
+        -> elif ladder : Used to check multiple conditions
+
+        -> match case : also used when working with multiple conditions (introduced in python 3)
+        

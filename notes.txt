@@ -486,4 +486,26 @@
         -> elif ladder : Used to check multiple conditions
 
         -> match case : also used when working with multiple conditions (introduced in python 3)
+
+    -> Looping Statements (Iteration Statements)
+
+        -> Used to execute a block of code repeatedly, based on condition 
+
+        -> while loop : used to run block of code, as long as condition is True
+
+            : used when you don't know number of Iterations in advance
+
+            while (condition):
+                statements
         
+        -> for loop : used to iterate over a sequence (__iter__)
+                    : used when you know number of Iterations in advance        
+
+            NOTE: we have dir() function, tells what an object can do   
+
+            NOTE : range() : generates sequence of numbers
+
+                range(start,stop,step) 
+                    start : from zero included 
+                    start : at end excluded
+                    step : is 1 by defualt  

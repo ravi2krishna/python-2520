@@ -515,3 +515,11 @@
 
 -> Nested Conditionals : Conditionals inside Conditionals
 -> Nested Loops : Loops inside Loops
+
+-> Branching Statements (Jump Statements) 
+
+    -> break : helps you exit loops 
+
+    -> continue : helps you skip the current Iteration in loop 
+
+    -> pass : acts as a Placeholder, for doing nothing 

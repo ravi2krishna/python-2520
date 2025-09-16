@@ -509,3 +509,9 @@
                     start : from zero included 
                     start : at end excluded
                     step : is 1 by defualt  
+
+16th Sep 2025
+=============
+
+-> Nested Conditionals : Conditionals inside Conditionals
+-> Nested Loops : Loops inside Loops

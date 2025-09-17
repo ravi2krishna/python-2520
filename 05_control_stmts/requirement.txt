@@ -1,0 +1,52 @@
+# Requirement : Complete 
+
+# Variables, Data Types, Operators, Control Statements 
+
+-> Student Grade Tracker 
+
+-> Collect Following information from student 
+
+    -> Student ID
+    -> Student Name
+    -> Attendance 
+
+-> Ask Student To Enter Score / Marks
+
+-> Repeatedly, ask the student to enter scores based on yes/no 
+
+    -> Do you want to enter another score ? (yes/no) (90,90,90)
+
+-> Calculate Total Score (Score 1 + Score 2 + .... + Score N ) - 270
+
+-> Give me the Average score 
+
+-> Give me the number of scores 
+
+-> Based On Average Score, Grade the Student
+
+    -> 85 and above "A"
+    -> 70 to 84 "B"
+    -> 69 to 50 "C"
+    -> Below 50 "FAIL"
+
+-> Attendance Criteria 
+
+    -> Attendance less than 75 : WARNING LOW ATTENDANCE 
+                                 OK GOOD ATTENDANCE
+
+-> Award Eligibility 
+
+    -> GOOD ATTENDANCE and also "A" Grade, give award to student
+
+-> Output 
+
+    -> Student ID
+    -> Student Name
+    -> Attendance
+    -> Total Score
+    -> Average Score 
+    -> Number Of Scores
+    -> Student Grade
+    -> Attendance Criteria
+    -> Award Eligibility 
+

@@ -523,3 +523,50 @@
     -> continue : helps you skip the current Iteration in loop 
 
     -> pass : acts as a Placeholder, for doing nothing 
+
+17th Sep 2025
+=============
+
+    -> Strings 
+
+        -> One of the most widely used data type in python
+
+        -> String : Sequence of characters enclosed in 'text' or "text" -> recommended
+                    triple quotes -> not recommended for single line strings 
+                    triple quotes -> recommended for multi line strings 
+        
+        -> When you need single quote in a string, enclose them in ""
+
+        -> When you need double quote in a string, enclose them in ''
+
+        -> When you need both single and double quote in a string, enclose them in '''
+
+    -> Indexing : Python allows you to access individual characters inside string using index number
+
+    -> text = "python"
+
+        0  1  2  3  4  5 (Positive Indexing) (forward)
+        p  y  t  h  o  n
+       -6 -5 -4 -3 -2 -1 (Negative Indexing) (backward)
+
+    -> len() : used to get length of string 
+
+    -> Slicing : Extracting a portion of string from another string (substring), we use index numbers 
+
+               : range(start, stop, step)
+               : slice[start: stop: step]
+            
+                    start : from zero included 
+                    stop : at end excluded
+                    step : is 1 by default  
+    
+    -> Positive Slicing
+
+    -> Negative Slicing
+
+        print(text[::-1]) 
+        Start = default → end of string ("n")
+        Stop = default → beginning ("P")
+        Step = -1 (reverse direction)
+
+    -> 

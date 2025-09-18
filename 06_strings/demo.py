@@ -107,3 +107,48 @@ print(text[3])
 # print(text[10]) # IndexError: string index out of range
 
 print(text[0:6:-1])
+
+# string concatenation
+s = "good"
+m = " morning"
+print(s+m) 
+
+a = 10
+b = 20
+print(a+b)
+
+# string formatting
+age = 30
+# print("My age is: "+age) # TypeError: can only concatenate str (not "int") to str
+
+# interpolation - {}
+print(f"My age is: {age}")
+print("My age is: ",age) 
+print("My age is: ", +age) 
+print("My age is: "+str(age)) 
+
+print("My age after 5 years would be: ", +age+5) 
+
+# String Repetition 
+laugh = "Haha"
+print(laugh)
+
+laugh_hard = "HahaHahaHahaHahaHahaHahaHahaHahaHaha"
+print(laugh_hard)
+
+laugh_hard = laugh * 20
+print(laugh_hard)
+
+greet = "hello"
+print(greet)
+greet = "Hello"
+print(greet)
+
+# String Immutability 
+# Immutable : cannot be changed 
+greet = "hello"
+print(greet)
+# greet[0] = "H" # TypeError: 'str' object does not support item assignment
+print(greet)
+
+print(dir(greet))

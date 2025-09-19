@@ -43,3 +43,13 @@
     -> PROMO => apply 5000 discount on fee
 
 
+-> Output 
+
+    -> ID
+    -> System Generated ID 
+    -> Name
+    -> System Generated Email 
+    -> Actual Course Fee
+    -> Fee To Pay 
+    -> Attach Above Functionality to existing Student Grade Tracker Solution
+        (apply any validations possible for existing app)  

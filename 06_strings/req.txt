@@ -1,0 +1,45 @@
+# Enhanced Student Grade Tracker Solution
+
+-> Student ID 
+
+    -> In the previous project if I give the student id as text it takes, 
+    if I give negative number it takes, zero it takes, 
+    now only take positive numbers only excluding zero
+
+        -> 101
+
+    -> System Generated ID: Based on ID generate ==> EDIFY-STU-101
+
+-> Student Name 
+
+    -> If i give student name it accepts number and symbols also, 
+    but only alphabets it should accept
+
+    -> If any spaces are there in front and end, remove them
+
+    -> Format Name Like 
+
+        -> ravi krishna ==> Ravi Krishna
+
+    -> Name should be at least 3 characters 
+
+        -> ra (invalid)
+        -> ravi (valid)
+
+-> System Generated Email 
+
+    -> Take the first name 
+    -> Take the id
+    -> firstname.id@edify.edu
+
+-> Course Fee Calculation 
+
+    -> Take Course Fee as input 
+
+    -> Course Fee cannot be zero or less than zero 
+
+    -> Ask student for coupon 
+
+    -> PROMO => apply 5000 discount on fee
+
+

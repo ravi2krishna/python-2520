@@ -586,3 +586,10 @@
     -> String Methods 
 
         -> String class(datatype) provides various methods 
+
+19th Sep 2025
+=============
+
+    -> String Methods Continued 
+
+    -> App Req On Strings

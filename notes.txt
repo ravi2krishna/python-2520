@@ -593,3 +593,61 @@
     -> String Methods Continued 
 
     -> App Req On Strings
+
+20th Sep 2025
+=============
+
+    -> Simple Data types 
+
+        -> Can hold one value 
+
+        -> data = 10
+
+    -> Complex Data types
+
+        -> Can hold multiple values 
+
+        -> data = [10,20,30,40,50]
+
+    -> In python(part of standard library) we use following classes to work with Complex Data types
+
+        -> List 
+        -> Tuple 
+        -> Dictionary
+        -> Set 
+
+    -> List 
+
+        -> List is a data structure which allows you to Store multiple values in a single variable
+
+        -> Lists are represented using [ ] or use list class ==> list()
+
+        -> Accessing the data in lists 
+
+            -> Like in Strings, we have index which starts from 0 
+
+            -> Use index number to access individual elements
+
+            -> Both Positive and Negative Indexing 
+
+            -> Indexing is same as Strings
+
+            -> Slicing is same as Strings 
+
+                 slice[start: stop: step]
+            
+                    start : from zero included 
+                    stop : at end excluded
+                    step : is 1 by default  
+
+        -> Looping 
+
+        -> Operators 
+
+        -> Conditionals 
+
+        -> Duplicates Allowed 
+
+        -> List Methods / operations
+
+            -> 

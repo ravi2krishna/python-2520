@@ -650,4 +650,67 @@
 
         -> List Methods / operations
 
-            -> 
+
+22nd Sep 2025
+=============
+
+    -> List Methods Continued 
+
+    -> List Characteristics 
+
+        -> Order : Lists is ordered (insertion order is preserved)
+
+        -> Mutable : Lists can be modified (append,clear)
+
+        -> Duplicates : Allowed 
+
+        -> Can we hold different data types : Yes 
+
+
+-> Tuples 
+
+    -> Tuples is a data structure which allows you to Store multiple values in a single variable
+
+        -> Tuples are represented using ( ) or use tuple class ==> tuple()
+
+        -> Accessing the data in Tuples 
+
+            -> Like in Strings, we have index which starts from 0 
+
+            -> Use index number to access individual elements
+
+            -> Both Positive and Negative Indexing 
+
+            -> Indexing is same as Strings
+
+            -> Slicing is same as Strings 
+
+                 slice[start: stop: step]
+            
+                    start : from zero included 
+                    stop : at end excluded
+                    step : is 1 by default  
+
+        -> Looping 
+
+        -> Operators 
+
+        -> Conditionals 
+
+        -> Duplicates Allowed 
+
+        -> Tuples Methods / operations
+
+        -> Tuples are READ ONLY type of data 
+
+        -> Read only lists is your Requirement, use Tuple
+
+    -> Tuples Characteristics 
+
+        -> Order : Tuples is ordered (insertion order is preserved)
+
+        -> Immutable : Tuples cannot be modified (count, index -> accessing)
+
+        -> Duplicates : Allowed 
+
+        -> Can we hold different data types : Yes 

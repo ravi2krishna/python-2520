@@ -714,3 +714,47 @@
         -> Duplicates : Allowed 
 
         -> Can we hold different data types : Yes 
+
+
+23rd Sep 2025
+=============
+
+    -> Dictionary (Mapping Type Of Data)
+
+    -> Dictionary is a data structure which allows you to Store multiple key, values in a single variable
+
+        -> key, value -> pair / item
+            key:value,key:value,.......
+
+        -> Dictionaries are represented using { } or use tuple class ==> dict()
+
+    -> There is no index in Dictionaries 
+
+    -> NO INDEXING 
+
+    -> NO SLICING 
+
+    -> Rule 
+
+        -> keys cannot be duplicates (it will override the data)
+        -> keys should be Immutable objects only (95% or above keys will be strings)
+        -> values can be duplicates
+        -> valid can be any object 
+    
+    -> In Dictionaries we use key to access data/values not index 
+
+    -> Dictionary Characteristics 
+
+        -> Order : Dictionary is ordered (insertion order is preserved)
+
+        -> Mutable : Dictionaries can be modified (update,clear)
+
+        -> Duplicates : Allowed 
+
+            -> duplicate keys will be override 
+            -> duplicate values allowed 
+
+        -> Can we hold different data types : Yes 
+
+            -> key should be Immutable
+            -> value can be any type of data 

@@ -611,7 +611,7 @@
 
     -> In python(part of standard library) we use following classes to work with Complex Data types
 
-        -> List 
+        -> List (How We use it Application)
         -> Tuple 
         -> Dictionary
         -> Set 
@@ -758,3 +758,56 @@
 
             -> key should be Immutable
             -> value can be any type of data 
+
+24th Sep 2025
+=============
+
+    -> Sets is a data structure which allows you to Store multiple values in a single variable
+
+        -> sets are represented using { } or use set class ==> set()
+
+        -> dict : {1:100,2:200,3:300}
+        -> set  : {100,200,300}
+
+    
+    -> Accessing the data in Sets 
+
+        -> Sets doesn't support index 
+        -> NO INDEXING 
+        -> NO SLICING 
+
+    -> Sets are UUU 
+
+        -> U - Unordered (No order - No index)
+        -> U - Unique (No Duplicates, if we add forcefully, removed)
+        -> U - Unindex 
+
+    -> Sets are specially used when we want to perform math operations of sets 
+
+        -> Union
+        -> Intersection
+        -> Difference 
+        -> etc 
+
+    -> Frozenset : Immutable Set 
+
+    -> Set Characteristics 
+
+        -> Order : Sets are Unordered (insertion order is not preserved)
+
+        -> Mutable : Sets can be modified 
+
+            > NOTE : Frozen set is immutable
+
+        -> Duplicates : Not Allowed 
+
+        -> Can we hold different data types : Yes 
+        
+-> Building Applications ?
+
+        -> List (Seq of values, mutable) {in which context}
+        -> Tuple  (") (immutable)
+        -> Dictionary (Mapping Types) {in which context}
+        -> Set (Unique Dat) {in which context}
+
+-> Databases (CRUD) : Database point of view 

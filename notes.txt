@@ -811,3 +811,23 @@
         -> Set (Unique Dat) {in which context}
 
 -> Databases (CRUD) : Database point of view 
+
+
+
+25th Sep 2025
+=============
+
+    -> Application Requirement 
+
+        -> Student Management System (Product/Employee etc)
+
+        -> Simulate a web application which uses CRUD on databases 
+
+            -> C - Create (Student/Product/Employee etc)
+            -> R - Read   (Student/Product/Employee etc)
+            -> U - Update (Student/Product/Employee etc)
+            -> D - Delete (Student/Product/Employee etc)
+
+        -> As of now it's a Console Based Application (Terminal)
+
+        -> In future, you can turn this into Web Application (Django + Database)

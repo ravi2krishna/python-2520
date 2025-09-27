@@ -832,10 +832,79 @@
 
         -> In future, you can turn this into Web Application (Django + Database)
 
-25th Sep 2025
+26th Sep 2025
 =============
 
     -> Student Management System (Product/Employee etc) Continued
 
     -> Similar to Student Management System, create a Product Management System which
     is a sub service of Ecommerce System 
+
+27th Sep 2025
+=============
+
+    -> Functional Programming
+
+    -> Function 
+
+        -> A function is block of Code, which performs a task 
+
+    -> Why Functions ?
+
+        -> Functions can help in breaking down complex problems into simpler and smaller
+            manageable sub tasks
+
+        -> You can call a function multiple times, which avoid Code Repetition, 
+            which promotes Code Reusability 
+
+    -> Function Syntax 
+
+        def function_name():
+            statements
+
+    -> Functions with Parameters 
+
+        -> Using Parameters with functions, we can pass dynamic inputs for doing tasks
+
+        def function_name(Parameter1, Parameter2, .....):
+            statements
+
+    -> Arguments to function 
+
+        -> In python, you can pass arguments to a function in 5 different ways
+
+            -> Positional Arguments 
+
+            -> Keyword Arguments 
+
+            -> Default Arguments
+
+            -> Arbitrary Positional Arguments(*args) 
+
+            -> Arbitrary Keywords Arguments(**kwargs) 
+
+
+    -> Positional Arguments 
+
+        -> These are passed to functions in the exact order as defined in function 
+            signature 
+
+        -> Order/Position matters, the first argument you passed goes to first Parameter,
+            second argument you passed goes to second Parameter and so on
+
+    -> Keyword  Arguments
+
+        -> Arguments are passed explicitly by specifying the name, so here 
+            function call is based on name of argument not Position
+
+        -> Order doesn't matter anymore
+
+        -> Improve Code Readability and also avoids Confusion when you have multiple Parameters
+
+    
+    -> Default Arguments
+
+        -> Passing a default value to the argument in function signature 
+
+        -> If we pass any value to the default argument at the function call,
+            default value will be overridden with new value passed

@@ -908,3 +908,51 @@
 
         -> If we pass any value to the default argument at the function call,
             default value will be overridden with new value passed
+
+29th Sep 2025
+=============
+
+    -> Arbitrary Positional Arguments(*args) 
+
+        -> Allows you to accept any number of Positional Arguments
+
+        -> Used when you don't know how many arguments a function might receive 
+
+    -> Arbitrary Keywords Arguments(**kwargs) 
+
+        -> Allows you to accept any number of Keyword Arguments
+
+        -> Used when you don't know how many arguments a function might receive 
+
+        -> All the arguments we pass will be captured in a Dictionary
+    
+
+    -> "return" is a keyword in python, used in functions to give appropriate response, when a function is called
+
+        -> when you don't use return, by default a function return None 
+
+        -> If we use return, make sure it is the last statement to be executed 
+
+        -> If you have multiple returns sequentially, first will be considered 
+
+        -> If multiple returns are present, and used with control structure, you can control the flow 
+
+
+    -> Function Composition 
+
+        -> Function Calling another function is called Function Composition, for Reusability
+
+    -> Scope Of Variables inside Functions
+
+        -> Scope : Inside the code, where you can access a variable depends up on the Scope
+
+            -> Local Scope 
+
+            -> Global Scope     
+        
+        -> Local Scope
+
+            -> A Local variable is declared inside the function
+            -> its lifetime exists only within the function, while the function runs
+            -> so we cannot use them outside the function   
+            -> NOTE : Parameters we are passing to the functions, are local variables

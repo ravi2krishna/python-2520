@@ -956,3 +956,59 @@
             -> its lifetime exists only within the function, while the function runs
             -> so we cannot use them outside the function   
             -> NOTE : Parameters we are passing to the functions, are local variables
+
+30th Sep 2025
+=============
+
+    -> Global Scope 
+
+        -> A Global variable is declared outside the function
+        -> its lifetime exists outside the function too
+        -> so we can use them outside the function   
+        -> As global variables can be accessed within the functions, there can be 
+        name conflicts, in this case first preference is given to local variables 
+            NOTE: To access global variables, use globals()
+        -> If you want global variables to be changed inside the function, then we 
+        need to use a special keyword called global 
+
+    -> Function Types In Python
+
+        -> Built in functions
+            -> Predefined functions, already part of standard python library
+            -> no need to explicitly create again using def keyword 
+            -> common utilities are generally predefined functions 
+
+            -> type, len, sum, max, min, dir, id, input etc 
+        
+        -> User Defined functions
+            -> User Defined Functions, are created by developer, using def keyword 
+            -> Custom Functionalities based on user Requirements
+            -> add(), emp_info(), etc 
+        
+        -> Lambda functions (Anonymous Functions)
+
+            -> A lambda function is a small, one line function with no names i.e Anonymous
+
+            -> NOTE: Used ONLY FOR ONE LINE EXPRESSIONS 
+
+            -> We use "lambda" keyword to work with Lambda functions
+
+            -> In lambda functions, result of EXPRESSION is Automatically returned
+
+            -> NOTE : Used for simple and quick tasks, especially when passing a 
+                function as a Parameter
+
+            -> One Liner Functions also called IILE = Immediately Invoked Lambda Expression
+
+            -> Syntax 
+
+                lambda arguments: expression
+
+                    -> arguments can be multiple, but expression is one line only
+
+
+        -> This lambda expressions will be attached with higher functions 
+
+        -> Higher Order Functions 
+
+            -> map, filter and reduce 

@@ -1012,3 +1012,47 @@
         -> Higher Order Functions 
 
             -> map, filter and reduce 
+
+1st Oct 2025
+=============
+
+    -> Higher Order Functions 
+
+        -> Their goal is to perform operations on Iterables 
+
+        -> Concise code, without writing explicitly lengthy code for loops 
+
+    -> map()
+
+        -> Applies a function to each item in the Iterable
+
+        -> Just like using a for loop 
+
+        -> Syntax :
+
+            map(function, iterable)
+
+    -> filter()
+
+        -> Filters the items of an iterable, based on condition 
+
+        -> Just like using a for loop with condition 
+
+        -> Syntax :
+
+            filter(function, iterable)
+
+    -> reduce()
+
+        -> Reduces an iterable to Single Value, by applying the function cumulatively 
+
+        -> reduce is available inside a module called functools 
+
+        -> Syntax :
+
+            reduce(function, iterable)
+
+    -> NOTE : Using Lambda Style of Code, we are defining "WHAT TO DO" logic on fly 
+
+    -> data = [100,None,80,70,None]
+       -> filter data without None/null/missing 

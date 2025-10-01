@@ -1,0 +1,92 @@
+# Requirement for Student Management System (Student/Product/Employee etc)
+    using functional style 
+
+-> Create a Student Management System/Portal which helps admins to manage 
+    (Student/Product/Employee etc)
+
+-> Student : Maintain records like Scores, Skills 
+
+-> System Setup 
+
+    -> Company Name : Edify Technologies 
+    -> Software Name : Student Management System
+    -> Version : v1
+    
+    -> READ ONLY 
+
+-> Admin Info 
+
+    -> Admin Contact : 9090880
+    -> Admin Email : admin@edify.com
+    
+    -> READ ONLY 
+
+-> When we Start Application, Display System System Info 
+
+-> Core Functionality (CRUD)
+
+    -> Adding Student (CRUD - C - CREATE)
+
+        -> Prompt for Student ID and check if this id already exists in the system 
+
+            -> if ID exists, say ID Already Exists
+
+            -> if ID doesn't exist, Add that ID 
+
+            -> Take Student Name ==> Format Like below 
+
+                -> ravi krishna ==> Ravi Krishna
+            
+            -> Take Students Scores 
+
+                -> Keep taking scores till the students days done
+
+                    -> Enter Score or type done 
+                    -> Validate them between 0 to 100
+                    -> Scores Can Be Duplicated 
+
+            -> Take Students Skills 
+
+                -> Keep taking skills till the students days done
+
+                    -> Enter Skill or type done 
+                    -> Skills Shouldn't be Duplicated 
+
+    -> Modify/Edit Student (CRUD - U - UPDATE)
+
+        -> Search By ID 
+        -> If ID present, allow to update only Name 
+        -> If ID not present, give appropriate Error Message 
+
+    -> Delete Student (CRUD - D - DELETE)
+
+        -> Remove By ID 
+        -> If ID present, Delete
+        -> If ID not present, give appropriate Error Message 
+
+    -> List All Student Info (CRUD - R - READ)
+
+        -> Display all the Students In System 
+
+        -> For Each Student 
+
+            -> ID 
+            -> Name
+            -> All Scores
+            -> Average Score 
+            -> Highest Score 
+            -> Lowest Score 
+            -> All Skills 
+            -> Skills Count  
+
+-> When we Exit Application, Display Admin Info 
+
+students {}
+
+students[student_id] = {
+
+    "name" = ravi krishna
+    "scores" = [80,70,90,80]
+    "skills" = {git,java,python}
+
+}

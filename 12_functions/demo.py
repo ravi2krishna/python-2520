@@ -319,4 +319,63 @@ def add_nums(*numbers):
 
 print(add_nums(1,2,3))
 
-lambda *numbers: for num in numbers: total += num
+# Without map()
+# Write a script to take a list of numbers and return square of list of number 
+# [1,2,3,4,5] => [1,4,9,16,25]
+
+def square_list(numbers):
+    squared_list = []
+    for num in numbers:
+        squared_list.append(num*num)
+    return squared_list
+
+print(square_list([1,2,3,4,5]))
+
+# With map()
+# Write a script to take a list of numbers and return square of list of number 
+# [1,2,3,4,5] => [1,4,9,16,25]
+# map(function, iterable)
+print(list(map(lambda num: num * num, [1,2,3,4,5]))) # <map object at 0x10468ecb0>
+
+# Without filter()
+# Write a script to take a list of numbers and return only even numbers from the list 
+# [1,2,3,4,5,6,7,8,9,10] => [2,4,6,8,10]
+def even_list(numbers):
+    even_numbers = []
+    for num in numbers:
+        if num % 2 == 0:
+            even_numbers.append(num)
+    return even_numbers
+
+print(even_list([1,2,3,4,5,6,7,8,9,10]))
+            
+# With filter()
+# Write a script to take a list of numbers and return only even numbers from the list 
+# [1,2,3,4,5,6,7,8,9,10] => [2,4,6,8,10]
+print(list(filter(lambda num: num % 2 ==0, [1,2,3,4,5,6,7,8,9,10]))) # <filter object at 0x1010db250>
+
+# Without reduce()
+# Write a script to take a list of numbers and return product of all the items in that list 
+# [1,2,3,4,5] => 1*2*3*4*5 = 120
+def multiply_list(numbers):
+    result = 1
+    for num in numbers:
+        result = result * num
+    return result
+
+print(multiply_list([1,2,3,4,5]))
+
+# With reduce()
+# Write a script to take a list of numbers and return product of all the items in that list 
+# [1,2,3,4,5] => 1*2*3*4*5 = 120
+# import reduce 
+from functools import reduce
+print(reduce(lambda result,num: result * num, [1,2,3,4,5]))
+
+data = [100,None,80,70,None]
+filter_data = (list(filter(lambda num: num is not None, data)))
+print(filter_data)
+
+servers = ["10.0.0.1","down","10.0.0.3","10.0.0.4","down"]
+active_servers = (list(filter(lambda server: server !="down", servers)))
+print(active_servers)

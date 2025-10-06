@@ -1056,3 +1056,51 @@
 
     -> data = [100,None,80,70,None]
        -> filter data without None/null/missing 
+
+6th Oct 2025
+=============
+
+    -> CRUD App using functional style 
+
+    -> Modules 
+
+        -> A module is a simple python file which contain python definitions 
+
+            -> variables 
+            -> statements 
+            -> functions 
+            -> classes 
+            -> etc 
+
+        -> Modules allows you to reuse code, instead of rewriting 
+
+    -> Types Of Modules 
+
+        -> Inbuilt Modules 
+
+            -> Provided as part of standard python library 
+
+        -> User Defined Modules
+
+            -> Created by user itself 
+
+        -> External Modules 
+
+            -> Provided 3rd part vendors 
+
+            -> https://pypi.org/
+
+            -> pip => python package manager 
+
+            -> pip install pandas (win)
+
+            -> pip3 install pandas (mac)
+
+    -> Syntax 
+
+        import module (import whole module and all Functionalities)      
+
+        from module import specific_functionality (import only specific Functionalities) (recommended)
+        
+                
+

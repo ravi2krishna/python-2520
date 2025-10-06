@@ -79,7 +79,15 @@
             -> All Skills 
             -> Skills Count  
 
+
+-> Using lambda style 
+
+    -> Add a new feature, to search by skill criteria 
+
+        -> Allows administrators to search students based a particular skill 
+
 -> When we Exit Application, Display Admin Info 
+
 
 students {}
 

@@ -1104,3 +1104,35 @@
         
                 
 
+7th Oct 2025
+=============
+
+    -> User Defined Modules
+
+        -> Just writing a python file 
+
+        -> He wants some math functions and also some user profile related info as well 
+
+    -> External Modules 
+
+        -> Rather than developing, we use them 
+
+            -> pip install pandas (win)
+
+            -> pip3 install pandas (mac)
+
+        -> You are working with some API (provided by some external service provider)
+
+        -> pip3 install -r Requirements.txt 
+
+        -> Data Analysis Project : https://github.com/ravi2krishna/fundamentals-student-dashboard-2524.git
+
+    -> Reusability
+
+        -> Block Of Code - functions
+
+        -> A file of Code - modules 
+
+        -> Folder (Multiple files) of code - packages  
+
+            -> package is a logical entity which holds multiple modules (multiple python files)

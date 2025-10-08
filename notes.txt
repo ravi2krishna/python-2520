@@ -1179,4 +1179,35 @@
                     -> r - read
                     -> w - write
                     -> a - append
-                    
+
+        -> Syntax 1 
+
+            -> open("path_file","mode"):
+                statements
+
+            open("file.txt","r")
+
+            -> This way file is not closed after performing operations
+
+        -> Syntax 2 (recommended)
+
+            -> with open("path_file","mode") as alias_name:
+                statements
+
+            with open("file.txt","r") as alias_name:
+
+            -> This way file is Automatically closed after performing operations
+
+    -> Read Data Inside File 
+
+        -> read()
+        -> readline()
+        -> readlines()
+
+    -> Write Data 
+
+        -> Create File 
+        -> Update File 
+        -> in write "w" mode data will be overwritten 
+
+        -> in append "a" mode data will not be overwritten 

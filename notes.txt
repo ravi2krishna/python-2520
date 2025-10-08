@@ -1136,3 +1136,47 @@
         -> Folder (Multiple files) of code - packages  
 
             -> package is a logical entity which holds multiple modules (multiple python files)
+
+
+8th Oct 2025
+=============
+
+    -> Package 
+
+        -> A folder with multiple modules (multiple python files)
+
+        -> We need a special file called __init__.py 
+
+            -> __init__.py can be empty no issues, but generally it holds start up msgs / configs etc 
+        
+        -> To work with package use folder name 
+
+    -> File Management With Python 
+
+        -> All above activities/tasks we did in non-persistent storage (RAM)
+
+            -> non-persistent storage (RAM) : temporary 
+
+        -> Now my Requirement is to work with persistent storage (HDD)
+
+           -> persistent storage (HDD) : permanent 
+
+    -> File Operations 
+
+        -> CRUD 
+
+            -> CREATE 
+            -> READ 
+            -> UPDATE 
+            -> DELETE 
+        
+        -> Using Python we can handle all above operations 
+
+            -> To Work with Any Type Of Files python has provided 
+
+                -> open() with modes 
+
+                    -> r - read
+                    -> w - write
+                    -> a - append
+                    

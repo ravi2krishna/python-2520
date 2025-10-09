@@ -1211,3 +1211,34 @@
         -> in write "w" mode data will be overwritten 
 
         -> in append "a" mode data will not be overwritten 
+
+9th Oct 2025
+=============
+
+    -> In python, we can create / delete files and folders using 
+
+        -> os 
+
+        -> shutil 
+
+    -> Last Sessions Working With Text Files 
+
+    -> Working With CSV Files (Comma Separated Values)
+
+        -> Very Commonly Used in Data Oriented Domain 
+
+    -> We have "csv" module built in python standard library 
+
+    -> "csv" module provides classes that assist in the 
+    reading and writing of Comma Separated Value (CSV) files
+
+    -> Reading 
+
+        -> reader (list based -> index based)
+
+        -> DictReader (dict based -> key based)
+
+    
+    -> Writing 
+
+        -> writer

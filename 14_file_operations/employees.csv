@@ -1,0 +1,13 @@
+name,email,mobile,address
+ravi,ravi@gmail.com,998998998,hyderabad
+ramu,ramu@outlook.com,998998998,bangalore
+suresh,suresh@gmail.com,998998998,pune
+mahesh,mahesh@yahoo.com,998998998,chennai
+name,email,mobile,address
+ravi,ravi@gmail.com,998998998,hyderabad
+ramu,ramu@outlook.com,998998998,bangalore
+suresh,suresh@gmail.com,998998998,pune
+mahesh,mahesh@yahoo.com,998998998,chennai
+ramu,ramu@outlook.com,998998998,bangalore
+suresh,suresh@gmail.com,998998998,pune
+mahesh,mahesh@yahoo.com,998998998,chennai

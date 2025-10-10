@@ -302,7 +302,7 @@
 
         -> Syntax : we use {}, with f as (formatted string literals)  
 
-    -> Manipulate Data
+    -> Manipulate Data To manipulate data in Python programs we need operators. 
 
 -> Operators 
 
@@ -363,7 +363,7 @@
 
                 -> not in : return True, if sequence is not present
 
-        -> Identity Operators
+        -> Identity Operators   
 
             -> Used to Compare (memory address)
 
@@ -1242,3 +1242,33 @@
     -> Writing 
 
         -> writer
+
+10th Oct 2025
+=============
+
+    -> Working With JSON Files (Dictionary Like Data)
+
+    -> JSON (JavaScript Object Notation) is a human-readable, text-based format 
+    for storing and exchanging data that is widely used for 
+    web applications, APIs, and configuration files. 
+    
+    -> JSON represents data as key-value pairs within objects 
+        (enclosed in curly braces {}) -> same as Dictionary in python 
+
+    -> Very Commonly Used in Application Development (API's)
+
+    -> We have "json" module built in python standard library 
+
+    -> json operations
+
+        -> dump -> as a file we can store data accepts data and filename
+
+        -> load -> from a json file we can read data 
+
+        -> dumps -> object based writing 
+
+        -> loads -> object based reading
+
+
+
+

@@ -1417,3 +1417,92 @@
     -> Class Members 
 
     -> OOP Principals
+
+15th Oct 2025
+=============
+
+    -> Object 
+
+        -> In terms of real world, everything is an object 
+
+        -> An object has two entities 
+
+            -> An Object has something like Characteristics / Properties (DATA) 
+                Variables (Attributes) - CAR 
+
+                -> CAR has a brand 
+                -> CAR has a price
+                -> CAR has a color etc
+
+            -> An Object does something like Behavior (FUNCTIONS) 
+                METHODS - CAR 
+
+                -> CAR does drive forward
+                -> CAR does drive backward
+                -> CAR does sound horn
+                -> CAR does blink indicators etc 
+
+            -> How to create an object ?
+
+                -> We need Class 
+
+    -> Class 
+
+        -> A class is a blueprint for creating objects 
+
+        -> A class will define what Characteristics and Behaviors, an object should posses
+
+    -> Object 
+
+        -> An Object is an actual / real instance of a class 
+
+
+    -> Classes & Objects 
+
+        -> Syntax for class 
+
+            class ClassName:
+                statements 
+
+        -> Syntax for object 
+
+            object = ClassName()
+
+        -> NOTE : In python classes will be Automatically called, unlike functions 
+
+        -> Class call is not required 
+            
+
+    -> Methods 
+
+        -> Methods are like functions, which are associated with objects 
+
+            -> A Method is block of Code, which performs a task (associated with objects )
+
+        -> Method will be inside the class 
+
+        
+        ->                            Functions                              Methods
+
+        How To Call                   function_name(args)                    object.method_name(args)
+
+        Belongs To                    independent / global                   Object 
+
+        Defined Using                 def function_name                      def method_name(inside class)
+
+    -> When working with OOP Style, one of the Confusion initially is 
+
+        -> Python Automatically Passes an object(self) to method 
+
+        -> self is nothing but object reference 
+
+        -> self is recommended by python, but you can pass anything as reference 
+            
+    -> __init__ 
+
+        -> __init__() is a special methods (also called as Constructor) 
+
+        -> Constructors are used to initialize the data 
+
+        -> When we create an object Constructors are Automatically called 
+

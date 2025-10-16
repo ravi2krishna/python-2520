@@ -1506,3 +1506,107 @@
 
         -> When we create an object Constructors are Automatically called 
 
+
+16th Oct 2025
+=============
+
+    -> Instance Members => Instance Variables & Instance Methods 
+
+    -> Instance Variables / Attributes 
+
+        -> Instance Variables belongs to an object i.e instance, not the class 
+
+        -> Instance Variables are defined in the __init__ method using self keyword 
+
+        -> Each Object you create has it's own copy of instance variable with different values 
+
+        -> Modifying an instance variable in one object, doesn't affect the same variable
+            in other objects 
+
+        -> Accessed via self.variable_name
+
+        -> syntax
+
+            class Demo:
+                def __init__(self,value):
+                    self.instance_var = value 
+
+
+    -> Instance Methods 
+
+        -> Methods which are defined inside a class which 
+            operates on instance variables i,e operate on object
+
+        -> Instance Methods are very commonly used types of methods in OOP 
+
+        -> Instance Methods always take "self" as the first parameter 
+
+        -> Instance Methods can access instance variables and also class variables too 
+
+        -> Called using object_name.method()
+
+    
+    -> Class Variables 
+
+        -> Class Variables are shared across all the instances of class 
+            i.e shared by all the objects of the class 
+
+        -> Class Variables belong to class, rather than objects, ideal for  
+            storing data that is common/fixed for all objects 
+
+        -> Defined inside the class, but outside the methods 
+
+        -> Accessed using Classname.variable_name or object.variable_name 
+
+            -> recommended is using Classname.variable_name
+
+        -> NOTE : If Class Variables are changed, the change is reflected in all the instances unlike instance vars 
+
+        -> Class Variables are memory efficient as only one copy is there unlike multiple copies like objects 
+
+        -> syntax
+
+            class Demo:
+                class_var = "i'm shared data"
+        
+    -> Class Methods 
+
+        -> Methods inside the class, which operates on class variables 
+
+        -> Not very commonly used 
+
+        -> Class Methods take "cls" as the first parameter 
+
+        -> Class Methods are defined using @classmethod decorator 
+
+        -> Can be accessed using Class Name or object, recommended is Classname 
+
+        -> Accessing instance data inside a class method gives error 
+
+    -> Static Members 
+
+        -> In python we don't have Static Variables 
+
+            -> In other languages like java static variable is equivalent to Class Variable 
+
+            -> Static Variable == Class Variable
+
+        -> Static Methods 
+
+            -> Static Methods are not bound to either class or object 
+
+            -> Static Methods does not depend on instance variable or class variable 
+
+            -> Not a common method 
+
+            -> Don't take self or cls as first parameter 
+
+            -> NOTE : Behaves like a normal function, but inside a class  
+
+            -> Declared used @staticmethod 
+
+            -> Used as utilities / helper functions 
+
+            -> Can be classed using both i,e class and object also 
+
+

@@ -5,8 +5,14 @@ class Student:
     # class variable -> class data common to all students
     institute_name = "Edify"
     
+    # one more constructor for basic info -> below approach is overloading not allowed in python
+    # def __init__(self,student_id,student_name):
+    #     # identity info
+    #     self.student_id = student_id
+    #     self.student_name = student_name
+    
     # instance data specific to each student 
-    def __init__(self,student_id,student_name,student_age,student_email,student_mobile_number):
+    def __init__(self,student_id,student_name,student_age=None,student_email=None,student_mobile_number=None):
         # identity info
         self.student_id = student_id
         self.student_name = student_name

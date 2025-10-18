@@ -23,13 +23,13 @@ class Trainer:
         print(f"Trainer Name : {self.trainer_name}")
         
     # trainer payment calculation
-    def sessions_payment_cal(self):
+    def sessions_payment_cal(self,s1):
         self.total_sessions_taken = int(input("Enter Total Sessions Taken: "))
         base_pay_per_session = 2000
         self.payment_for_sessions = self.total_sessions_taken * base_pay_per_session
         
         # get student rating here 
-        s1 = Student()
+        # s1 = Student()
         print("========= Student Rating Given =========")
         self.training_bonus = s1.trainer_rating_cal()
         self.total_payment = self.payment_for_sessions + self.training_bonus

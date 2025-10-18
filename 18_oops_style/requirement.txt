@@ -56,3 +56,41 @@
             -> Otherwise : Give 0 bonus 
 
         -> Calculate Total Payment For Sessions 
+
+    -> 3 months later new requirement 
+
+        -> Calculate Course Fee Functionality 
+
+            -> Actual Course Fee is 30000
+
+            -> Student can give COUPON for discount on Course Fee
+
+                -> if COUPON is "PROMO" give 5000 discount 
+
+                -> if COUPON is "FIFTY" give 15000 discount 
+
+            -> Also apply some Global Site Wide Discount - 10% 
+
+        -> Based On Above Functionality Display 
+
+            -> Original Course Fee 
+
+            -> Discount Applied Via COUPON
+
+            -> Global Discount 
+
+            -> Final Course Fee To Pay
+
+        -> Based on the system observation till now, see if calculations info data 
+            is needed as instance members and optimize if required
+
+        -> Our old def performance_credits_cal() is more of hardcoded 
+
+            -> Change it to be more dynamic 
+
+                -> Take some complex data structure to take multiple scores 
+                from the student like in our crud app 
+                    (Enter Score or type done: " ) 
+                
+                -> From this multiple scores take the average and this value should 
+                be given to performance_credits_cal(average)

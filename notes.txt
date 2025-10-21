@@ -1670,3 +1670,68 @@
             -> Otherwise : Give 0 bonus 
 
         -> Calculate Total Payment For Sessions 
+
+
+21st Oct 2025
+=============
+
+    -> 4 Pillars Of OOP 
+
+        -> Inheritance 
+
+        -> Encapsulation
+
+        -> Abstraction
+
+        -> Polymorphism
+
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the properties(vars) and methods 
+        of an existing class, called a superclass or parent class.
+
+        -> Main purpose of Inheritance is Code Reusability
+        
+        -> Syntax 
+
+            class Parent:
+                pass 
+
+            class Child(Parent):
+                pass 
+        
+        -> With Inheritance
+
+            -> Code Reusability
+
+            -> No Code Duplication 
+
+            -> Project Size is less 
+
+            -> Code Reliability improved 
+
+            -> Code Maintainability improved
+
+    -> Types Of Inheritance 
+
+        -> Single Level Inheritance
+
+            -> One Parent -> One Child 
+
+        -> Multi Level Inheritance 
+
+            -> Parent -> Child -> GrandChild 
+
+        -> Multiple Inheritance 
+
+            -> One Child -> Multiple Parents 
+
+        -> Hierarchial Inheritance
+
+            -> One Parent -> Multiple Child 
+
+        -> Hybrid Inheritance
+
+            -> Combination or two or more types 
+

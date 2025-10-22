@@ -1735,3 +1735,63 @@
 
             -> Combination or two or more types 
 
+
+22nd Oct 2025
+=============
+
+    -> Encapsulation 
+
+        -> Encapsulation is a core concept in object-oriented programming (OOP) that binds
+         data (attributes) and the methods that operate on that data into a single unit, 
+         like a class
+
+        -> This process involves restricting direct access to an object's internal state, 
+            which is a principle known as "data hiding" 
+
+        -> Other Languages like Java or C++ enforces Strict Rules for Encapsulation,  
+            coming to python there is no enforcing 
+
+            -> Java/C++ = “You’re not allowed.” 
+            -> Python = “You shouldn’t, but you can if you insist.”
+
+        -> While Python does not have strict access modifiers like private or protected 
+        keywords found in some other languages, 
+        python uses "naming conventions" to indicate the intended visibility of members.
+
+
+        -> Hide Data 
+
+            -> We have Public 
+
+                -> Without any special prefix are considered public and 
+                    can be accessed from anywhere
+
+            -> We Have Private 
+
+                -> prefixed with a double underscore (__) trigger
+
+                -> Cannot be accessed from outside
+
+                -> print(obj._MyClass__private_variable) # Accessing through mangled name is possible
+ 
+            
+            -> We Have Protected 
+
+                -> prefixed with a single underscore (_) trigger
+
+                -> This signals to other developers that the attribute is intended for 
+                internal use within the class and its subclasses, 
+                and should not be directly accessed or modified from outside the class.
+
+        -> Getters & Setters 
+
+            -> In Python, getters and setters are methods used to control access to 
+            class attributes, promoting data encapsulation and allowing for validation 
+            when retrieving or modifying attribute values. 
+            
+        -> @property
+            -> While Python doesn't enforce strict "private" attributes like 
+            some other object-oriented languages, the use of getters and setters, 
+            often with the @property decorator, 
+            provides a Pythonic way to achieve this control.
+

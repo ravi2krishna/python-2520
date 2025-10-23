@@ -1795,3 +1795,55 @@
             often with the @property decorator, 
             provides a Pythonic way to achieve this control.
 
+23rd Oct 2025
+=============
+
+    -> Abstraction 
+
+        -> Abstraction in OOP is a principle that involves hiding complex implementation 
+        details and showing only the essential features of an object to the user. 
+        It simplifies complex systems by breaking them into manageable components, 
+        making code more intuitive, reusable, and easier to maintain. 
+        
+        -> Abstraction is achieved through abstract classes and interfaces, 
+            which define a blueprint without exposing the underlying code.
+
+        -> Hiding implementation: Abstraction hides the internal workings of an object 
+        and presents a simplified view. For example, when using an ATM, you only 
+        interact with a simple interface (card, PIN, cash dispenser) without needing 
+        to know the complex process of backend banking operations that occur. 
+
+        -> Providing an interface: It defines a contract 
+        (using abstract classes or interfaces) that specifies 
+        what a class can do, without dictating how it does it. 
+
+        -> Ensuring security: By controlling what is exposed, 
+        abstraction protects the internal data and logic from unintended 
+        access or misuse. 
+
+        -> How To Achieve Abstraction In python 
+
+            -> An abstract class in Python functions as a blueprint for other classes, 
+            defining a common interface or structure that subclasses must adhere to. 
+            It cannot be instantiated directly, meaning you cannot create objects 
+            of an abstract class. 
+            
+            -> Abstract classes are implemented in Python using the 
+                abc module (Abstract Base Classes)
+
+                ->  from abc import ABC, abstractmethod
+            
+                -> Create a class that inherits from ABC. 
+                Inside this class, define one or more abstract methods using 
+                the @abstractmethod decorator. 
+                Abstract methods are declared but do not have an implementation 
+                (they typically contain pass).
+
+            -> Implement Subclasses: Create concrete subclasses that inherit from the 
+            abstract class. These subclasses must implement all abstract methods defined 
+            in the abstract parent class. 
+            If a subclass fails to implement any abstract method, 
+            it will also become an abstract class and cannot be instantiated.
+
+            -> Abstract Class -> Class -> Object
+

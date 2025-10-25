@@ -1847,3 +1847,26 @@
 
             -> Abstract Class -> Class -> Object
 
+25th Oct 2025
+=============
+
+    -> Polymorphism 
+
+        -> Polymorphism in OOP is the ability of an object, method, or variable 
+        to take on "many forms", allowing for a single interface 
+        to represent different underlying implementations. 
+
+        -> Polymorphism is achieved through techniques like 
+            "method overloading" and "method overriding"
+
+        -> NOTE: Python does not support traditional method overloading
+
+        -> Method Overriding
+
+            -> When a subclass provides a new implementation of a method 
+            that already exists in parent class 
+
+
+    -> OOPS Style Of Development 
+
+        
